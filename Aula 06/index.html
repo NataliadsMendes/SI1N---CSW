@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06</title>
+</head>
+<body>
+    <h1>Forma</h1>
+                <p> O professor Fabricio é um cara legal, ele nasceu na<u>
+                R. José Romério Duque, 185 - Mantena, MG, 35290-000</u> 
+                no hospital Evangélico,e ainda criança veio morar na <u> rua Santa Luzia, 323 - Serra, ES </u></p>
+                <br>
+                <br>
+    <h1>Semântica</H1>
+                <p>O progessor Fabricio é um cara legal, ele nasceu na<address>
+                R. José Romério Duque, 185 - Mantena, MG, 35290-000</address>
+                no hospital Evangélico e ainda criança veio morar na <address> rua Santa Luzia, 323 - Serra, ES</address></p>
+                <br>
+                <br>
+                <br>
+                <br>
+    <h1>Mão na massa</h1>
+            <h2>Negrito vs Destaque</h2>
+                <p> Na frase temos uma <b> parte do texto em negrito</b> usando a tag &lt; b &gt; (isso não é semântica) </p>
+                <p> Na frase temos uma <strong> parte do texto em negrito</strong> usando a tag &lt; strong &gt; (isso é semâtica) </p>
+                <br>
+            <h2>Itálico vs Ênfase</h2>
+                <p> Na frase temos uma <i> parte do texto em itálico</i> usando a tag &lt; i &gt; (isso não é semântica)</p>
+                <p> Na frase temos uma <em> parte do texto em itálico</em> usando a tag &lt; em &gt; (isso é semântica)</p>
+                <br>
+            <h2> Texto marcado</h2>
+                <p> Na frase temos uma <mark style="background-color: blueviolet;" mark>parte do texto destacado </mark> </p>
+                <br>
+            <h2> Grande e Pequeno</h2>
+                <p> Na frase temos uma <big> parte do texto maior </big> usando a tag &lt; big &gt; (isso não é semântica) </p>
+                <p> Nesta frase estamos trabalhamos com uma <small> parte do texto menor</small> usando a tag &lt; small &gt; (isso não é semântica) </p>
+                <br>
+            <h2> Texto Deletado vs Riscado</h2>
+                <p> Nesta frase temos uma <s> parte do texto deletado</s> usando a tag &lt; s &gt; (isso não é semântica). E nesta encontramos uma
+                <striker>parte do texto deletado </striker> usando a tag &lt; striker &gt; (isso também não é semântica)</p>
+                <p> Nesta frase temos uma <del> parte do texto riscado</del> usando a tag &lt; del &gt; (isso é semântica) </p>
+                <br> 
+            <h2> Texto Inserido vs Sublinhado</h2>
+                <p> Nesta frase temos uma <u> parte do texto inserido</u> usando a tag &lt; u &gt; (isso não é semântica) </p>
+                <p> Nesta frase temos uma <ins> parte do texto sublinhado</ins> usando a tag &lt; ins &gt; (isso é semântica) </p>
+                <br>
+                <h2> Sobrescrito</h2>
+                <p> Aqui encontramos uma <sub> parte do texto sobrescrito </sub> usando a tag &lt; sub &gt; </p>
+                <br> 
+            <h2> Subscrito </h2>
+                <p> Aqui encontramos uma <sup> parte do texto subscrito </sup> usando a tag &lt; sup &gt; </p> 
+                <br>
+             <h2> Trecho de código</h2>
+                 <pre>
+                <code>
+                    def Soma1aN(N):
+                            if N==1: return(1)
+                            else: return (N+Soma1aN(N-1)) # note-se a ativação recursiva
+
+                            # Uso da função
+                            N=int(input('Entre com o valor de N: '))
+                            print('A soma de 1 a', N, 'é', Soma1aN(N))
+                </code>
+            </pre>
+                <p> Na parte acima temos um trecho de código do phyton (soma) usando a tag &lt; pre &gt; e &lt; code &gt; </p>
+                <br> 
+             <h2> Endereço </h2>
+                <p> Nesta frase temos um endereço <address> Vila Velha</address> usando a tag &lt; address &gt; </p>
+                <br>
+            <h2> Code </h2>
+                <p> Aqui está sendo trabalhado uma <code> parte do texto com código</code> usando a tag &lt; code &gt; </p>
+                <br>
+            <h2> Citação simples</h2>
+                <p> Nesta frase encontramos uma citaçâo <q> Até as pessoas mais reservadas têm vontadade de se abrir com alguém, mesmo que seja uma única vez</q> 
+                usando a tag &lt; q &gt; </p>
+                <br>
+            <h2> Citação completa</h2>
+                <p> Uma citação de "A cabana" uma obra de William P. Young</p>
+                <p> <blockquote cite="https://books.google.com.br/books/about/A_cabana.html?id=p4WWd-9uHlQC&redir_esc=y"> 
+                    [...] não se esqueça de que
+                    no meio de toda a sua dor e da sua mágoa você está rodeado por
+                    beleza, pela maravilha da Criação, pela arte, pela música, pela
+                    cultura, pelos sons de riso e amor, de esperanças sussurradas e de
+                    celebrações, de vida nova e de transformações, de reconciliação e
+                    perdão. Essas coisas também são resultado de suas escolhas e
+                    toda escolha é importante, mesmo as ocultas. Então, que escolhas
+                    não deveriam ter sido feitas, Mackenzie? </blockquote></p>
+                <br>
+            <h2> Abreviação </h2>
+                <p> Nesta frase temos uma frase com abreviação: o professor Fabricio tem aula de <abbr title="Construção de Software para Web">CSW</abbr> , 
+                usando a tag &lt; abbr &gt; de abreviação </p>
+                <br>
+            <h2> Texto invertido</h2>
+                <p> Estou usando html, e na forma invertida fica <bdo dir="rtl"> Estou usando html</bdo> , usando a tag &lt; bdo &gt; </p>
+    
+</body>
+</html>
