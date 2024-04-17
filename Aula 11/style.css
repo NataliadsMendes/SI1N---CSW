@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+    background-color: aquamarine;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    color: crimson;
+    border: 2px solid black;
+    padding: 10px;
+}
+h1{
+    font-family: 'Cambria', sans-serif;
+    color: darkred;
+}
+h2{
+    font-weight: bold;
+    color: purple;
+}
+h3{
+    font-family:'Times New Roman', serif;
+    color: green;
+}
