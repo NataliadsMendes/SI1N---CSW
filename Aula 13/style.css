@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+main{
+    background-color: azure;
+    box-shadow: 30px 30px 30px blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: italic, bold;
+}
+
+h1{
+    font-size: 3em;
+    font-family: Georgia, serif;
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+body{
+    background-image: radial-gradient(circle, purple, blue, white);
+}
