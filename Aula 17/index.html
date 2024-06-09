@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="18x18" href="Iconarchive-Wild-Camping-Butterfly.png">
+    <title>Aula 17</title>
+</head>
+<body>
+
+    <h1> Formulário de contato </h1>
+    <section class="Formulário">
+        <form action="nataliadsmendess@gmail.com" method="post"> 
+            <span> Nome </span> 
+                <input type="text">
+        <br>
+            <span> Email </span>
+                <input type="email">
+        <br>
+            <span> Telefone </span>
+                <input type="tel">
+        <br>
+            <span> Comentario </span> 
+            <textarea nome="comentario" id="comentario" cols="40" rows="10"> </textarea>
+        <br>
+            <span> Data de nascimento </span>
+                <input type="date" name="date" id="date">
+            <span> Visita </span>
+                <input type="time" name="time" id="time">
+        <br>
+            <span> Deseja receber contato </span>
+                <input type="radio" name="contato" id="contatosim" value="Sim"> SIM
+                <input type="radio" name="contato" id="contatonao" value="Não"> NÃO
+        <br>
+            <span> Assunto a receber </span>
+            <input type="checkbox" id="checkbox" name="checkbox1" value="Auto"> Automóvel
+            <input type="checkbox" id="checkbox" name="checkbox2" value="Negocios"> Negocios
+            <input type="checkbox" id="checkbox" name="checkbox3" value="Esporte"> Esporte
+            <span> O que mais gostou? </span>
+            <select name="selecionar" id="selecionar">
+                <option value="GVitoria"> Grande Vitoria </option>
+                <option value="VV"> Vila Velha </option>
+                <option value="Guarapari"> Guarapari </option>
+                <option vaue="Marechal"> Marechal Floriano </option>
+            </select>
+            <div class="botao">
+                <input type="submit" id="enviar" value="enviar">
+                <input type="reset" id="limpar" value="limpar">
+                <button> Voltar </button>
+            </div>
+        </form>
+    </section>    
+</body>
+</html>
